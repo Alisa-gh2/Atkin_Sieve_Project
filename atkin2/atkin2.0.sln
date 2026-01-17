@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "atkinfolder", "atkinfolder", "{621B501F-3664-1EBB-FB7D-D5242A55A9A6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "noclient", "noclient", "{9FE36286-1F30-E644-EBA2-D51EF8E918C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtkinClient", "atkinfolder\noclient\Client\AtkinClient.csproj", "{597180F1-C754-27E3-1C24-5BE4CB7CECE0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtkinServer", "atkinfolder\noclient\Server\AtkinServer.csproj", "{E9751E9A-AAA8-CE52-6825-5E5A1C044D94}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{597180F1-C754-27E3-1C24-5BE4CB7CECE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{597180F1-C754-27E3-1C24-5BE4CB7CECE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{597180F1-C754-27E3-1C24-5BE4CB7CECE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{597180F1-C754-27E3-1C24-5BE4CB7CECE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9751E9A-AAA8-CE52-6825-5E5A1C044D94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9751E9A-AAA8-CE52-6825-5E5A1C044D94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9751E9A-AAA8-CE52-6825-5E5A1C044D94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9751E9A-AAA8-CE52-6825-5E5A1C044D94}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9FE36286-1F30-E644-EBA2-D51EF8E918C5} = {621B501F-3664-1EBB-FB7D-D5242A55A9A6}
+		{597180F1-C754-27E3-1C24-5BE4CB7CECE0} = {9FE36286-1F30-E644-EBA2-D51EF8E918C5}
+		{E9751E9A-AAA8-CE52-6825-5E5A1C044D94} = {9FE36286-1F30-E644-EBA2-D51EF8E918C5}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {07383411-EC12-46D5-AADF-7E736E807911}
+	EndGlobalSection
+EndGlobal
